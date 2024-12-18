@@ -34,6 +34,10 @@ Confusion Matrix: A confusion matrix is used to visualize the model's performanc
 Classification Report: A classification report provides detailed metrics like precision, recall, F1-score, and support for each class.
 
 ## Conclusion : 
+The application of logistic regression in predicting heart disease holds profound
+significance in the realm of healthcare. Leveraging this statistical method not only
+enables early diagnosis but also contributes to a proactive approach in mitigating the
+grave consequences associated with cardiovascular issues.
 
 ### I invite further research to explore the limitations and potential enhancements of this system.
 
