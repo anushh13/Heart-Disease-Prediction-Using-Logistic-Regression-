@@ -12,7 +12,26 @@
 -  Jupyter Notebook
 
 ## Working : 
+1.Data Preprocessing: The framingham.csv dataset is loaded and preprocessed.
+Unnecessary columns are dropped, and missing values are handled.
+Data is scaled using StandardScaler to ensure features have a similar scale.
 
+2.Data Splitting: The dataset is divided into training and testing sets. The training set is used to train the model, while the testing set is used to evaluate its performance.   
+Model Building:
+
+3.Logistic Regression:A Logistic Regression model is created.
+The model is trained on the training data.
+It learns the relationship between the input features (age, sex, medical parameters) and the target variable (presence or absence of heart disease).
+
+4.Random Forest:
+A Random Forest classifier is created.
+This model is also trained on the training data.
+It builds multiple decision trees and combines their predictions to improve accuracy.
+Model Evaluation:
+
+5.Accuracy: The accuracy of both models is evaluated using metrics like Jaccard similarity score.
+Confusion Matrix: A confusion matrix is used to visualize the model's performance in terms of true positives, true negatives, false positives, and false negatives.
+Classification Report: A classification report provides detailed metrics like precision, recall, F1-score, and support for each class.
 
 ## Conclusion : 
 
